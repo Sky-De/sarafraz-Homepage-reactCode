@@ -1,0 +1,52 @@
+.widget-con ul li img {
+  display: none;
+  width: 100%;
+  padding-top: 1rem;
+}
+.widget-con ul li img.active {
+  display: block;
+}
+
+.widget-con ul li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+  padding: 0.75rem;
+  color: #a9be0b;
+  font-weight: bold;
+}
+.widget-con ul {
+  list-style: none;
+}
+
+.widget-con {
+  box-shadow: 0 0 5px 2px rgb(168, 168, 168);
+  border-radius: 0.5rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .widget-con ul {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 29rem;
+  }
+
+  .widget-con ul li img {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 1px solid black;
+    padding-bottom: 2rem;
+  }
+  .widget-con ul li {
+    font-size: 1.4rem;
+    margin: 0 1rem;
+  }
+  .widget-con ul li:hover {
+    cursor: pointer;
+  }
+  .widget-con ul li.selected {
+    border-bottom: 4px solid #a9be0b;
+  }
+}

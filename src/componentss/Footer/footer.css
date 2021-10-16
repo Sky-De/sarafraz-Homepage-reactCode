@@ -1,0 +1,60 @@
+.footer {
+  width: 100%;
+  padding: 2.5rem 1rem 6rem 1rem;
+  background: rgb(3, 3, 78);
+  position: relative;
+}
+.develop-by {
+  position: absolute;
+  bottom: 0;
+  border-top: 1px dashed rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+}
+.develop-by h3 a {
+  color: #fff;
+}
+.develop-by h3 a:hover {
+  color: rgb(227, 243, 0);
+}
+
+footer h3 {
+  color: #a9be0b;
+  font-size: 1.6rem;
+  margin-bottom: 1.1rem;
+}
+
+.footer ul {
+  list-style: none;
+}
+.footer a {
+  text-decoration: none;
+  color: #0095eb;
+  font-weight: bold;
+}
+.footer a:hover {
+  cursor: pointer;
+}
+
+.contact-item {
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+}
+
+.link-item,
+.company-item,
+.contact-item {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-group {
+    margin-left: 5rem;
+  }
+}

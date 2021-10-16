@@ -1,0 +1,41 @@
+.step-card {
+  width: 6rem;
+  height: auto;
+  background: #fff;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  box-shadow: 2px 2px 6px 1px rgba(128, 128, 128, 0.322);
+}
+
+.step-card img {
+  width: 1.5rem;
+}
+
+.step-card p {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.step-card h4 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .step-card {
+    width: 11rem;
+    padding: 1.5rem 0 2rem 0;
+  }
+  .step-card img {
+    width: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .step-card p {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  .step-card h4 {
+    font-size: 0.85rem;
+    font-weight: bold;
+  }
+}
